@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Raleway:wght@300;500;900&display=swap');
+
+/**/
+
+.wrapper {
+    width: 100%;
+    max-width: 100%;
+    color: white;
+    background: black;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+}
+
+header div h1 {
+    /* color: rgba(192, 188, 188, 1); */
+    font-family: 'Kanit', sans-serif;
+    font-size: 50px;
+}
+
+img[alt="weekndsmile"] {
+    position: relative;
+    width: 100%;
+    opacity: 0.6;
+}
+
+main {
+    width: 100%;
+}
+
+.biography-wrapper {
+    height: 20%;
+    width: 100%;
+    position: absolute;
+    z-index: 9999;
+}
+
+.vogel-im-kafig {
+    padding: 15%;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Raleway', sans-serif;
+    color: rgba(255, 255, 255, 1);
+}
+
+.biography-wrapper h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+}
+
+.biography-wrapper p {
+    font-size: medium;
+}
+
+.biography-wrapper p b {
+    font-weight: 900;
+}
