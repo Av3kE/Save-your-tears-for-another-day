@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@500&family=Raleway:wght@300;500;900&display=swap");
+/**/
+.wrapper {
+  width: 100%;
+  max-width: 100%;
+  color: white;
+  background: black;
+  font-family: "Kanit", sans-serif;
+  font-family: "Raleway", sans-serif; }
+  .wrapper header {
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%; }
+    .wrapper header div h1 {
+      /* color: rgba(192, 188, 188, 1); */
+      font-family: "Kanit", sans-serif;
+      font-size: 50px; }
+  .wrapper video {
+    position: relative;
+    width: 100%;
+    opacity: 0.6; }
+  .wrapper main {
+    width: 100%; }
+    .wrapper main .vogel-im-kafig {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      font-family: "Raleway", sans-serif;
+      color: white; }
+      .wrapper main .vogel-im-kafig h2 {
+        font-family: "Kanit", sans-serif;
+        font-size: 40px; }
+      .wrapper main .vogel-im-kafig p {
+        font-size: medium; }
+        .wrapper main .vogel-im-kafig p b {
+          font-weight: 900; }
+    .wrapper main .biography-wrapper {
+      padding: 22% 0% 0% 20%;
+      height: 20%;
+      width: 50%;
+      position: absolute;
+      z-index: 9999; }
+    .wrapper main .love {
+      font-family: .wrapper main .love kanit;
+      font-size: large;
+      color: black; }
+    .wrapper main .most-popular-songs {
+      margin-top: 50px;
+      background-color: white;
+      width: 100%;
+      height: auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center; }
+      .wrapper main .most-popular-songs .cards-container {
+        padding: 50px;
+        width: 65%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        .wrapper main .most-popular-songs .cards-container .item {
+          width: 40%;
+          height: 150px;
+          background: white;
+          color: black;
+          border: 1px solid black; }
+          .wrapper main .most-popular-songs .cards-container .item:nth-child(1) {
+            margin-bottom: 50px;
+            box-shadow: 5px 5px 5px black; }
+          .wrapper main .most-popular-songs .cards-container .item:nth-child(1):hover {
+            box-shadow: 7px 7px 5px black; }
+          .wrapper main .most-popular-songs .cards-container .item:nth-child(2) {
+            box-shadow: -5px 5px 5px black; }
+          .wrapper main .most-popular-songs .cards-container .item:nth-child(2):hover {
+            box-shadow: -7px 7px 5px black; }
+          .wrapper main .most-popular-songs .cards-container .item:nth-child(3) {
+            box-shadow: 5px -5px 5px black; }
+          .wrapper main .most-popular-songs .cards-container .item:nth-child(3):hover {
+            box-shadow: 7px -7px 5px black; }
+          .wrapper main .most-popular-songs .cards-container .item:nth-child(4) {
+            box-shadow: -5px -5px 5px black; }
+          .wrapper main .most-popular-songs .cards-container .item:nth-child(4):hover {
+            box-shadow: -7px -7px 5px black; }
+          .wrapper main .most-popular-songs .cards-container .item p {
+            text-align: right;
+            font-family: "Kanit", sans-serif; }
+          .wrapper main .most-popular-songs .cards-container .item div {
+            width: 80%; }
+          .wrapper main .most-popular-songs .cards-container .item div.img-container {
+            width: 20%;
+            padding: 15px; }
+            .wrapper main .most-popular-songs .cards-container .item div.img-container img {
+              border-radius: 35px;
+              width: 100%;
+              height: 100%; }
+
+/*# sourceMappingURL=style.css.map */
